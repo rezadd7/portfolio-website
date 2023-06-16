@@ -8,9 +8,11 @@ import './App.css';
 //Components
 import Header from './components/Header';
 import Footer from './components/Footer';
-import Banner from './components/Banner';
+import About from './components/About';
 import Services from './components/Services';
 import Portfolio from './components/Portfolio';
+import Contact from './components/Contact';
+
 
 function App() {
 
@@ -22,9 +24,10 @@ function App() {
     <>
       <Header />
         <main>
-          <Banner />
+          <About />
           <Services />
           <Portfolio />
+          <Contact />
         </main>
       <Footer />
     </>
