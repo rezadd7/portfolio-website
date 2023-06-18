@@ -2,15 +2,15 @@ import React, {useRef, useEffect} from 'react';
 
 const Header = () => {
 
-  const headerRef = useRef(null);
+  const headeRef = useRef(null);
   const menuRef = useRef(null);
 
   const stickyHeaderFunc = ()=> {
     window.addEventListener('scroll', ()=>{
         if(document.body.scrollTop >  80 || document.documentElement.scrollTop > 80){
-            headerRef.current.classList.add('sticky__header')
+            headeRef.current.classList.add('sticky__header')
         } else {
-            headerRef.current.classList.remove('sticky__header')
+            headeRef.current.classList.remove('sticky__header')
         }
     })
   }
@@ -38,7 +38,7 @@ const Header = () => {
 
     return (
         <header 
-            ref={headerRef}
+            ref={headeRef}
             className='w-full h-[80px] leading-[80px]  flex items-center'
         >
             <div className='container'>
@@ -60,7 +60,7 @@ const Header = () => {
                         <ul className='flex items-center gap-10'>
                             <li>
                                 <a 
-                                     onClick={clickHandler}
+                                    onClick={clickHandler}
                                     className='text-smallTextColor font-[600]' 
                                     href='#about'>
                                     About

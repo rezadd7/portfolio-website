@@ -5,7 +5,7 @@ import CountUp from 'react-countup';
 
 const About = () => {
     return (
-        <section className='pt-0' id='#about'>
+        <section className='pt-0' id='about'>
             <div className='container pt-14'>
                 <div className='md:flex md:flex-row items-center justify-between sm:flex-col'>
                     {/* Main left content */}

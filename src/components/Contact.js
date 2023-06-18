@@ -2,7 +2,7 @@ import React from 'react';
 
 const Contact = () => {
     return (
-        <section id='#contact' className='pb-16'>
+        <section id='contact' className='pb-16'>
             <div className="container">
                 <h2 className=' text-headingColor font-[700] text-[2.5rem] mb-8'>Get In Touch</h2>
                 <div className=" md:flex justify-between items-center">
@@ -27,7 +27,7 @@ const Contact = () => {
                                         placeholder='Enter Your Email' 
                                         className=' w-full p-3 focus:outline-none rounded-lg'/>
                             </div>
-                            <div className=" mb-5">
+                            <div className=" mb-5" >
                                 <textarea   type="text" 
                                             rows={3}
                                             placeholder='Subject' 
