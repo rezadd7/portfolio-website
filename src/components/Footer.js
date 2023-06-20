@@ -32,17 +32,23 @@ const Footer = () => {
                                 </span>
 
                                 <span className=' w-[35] h-[35] bg-[#2b2d33] p-1 rounded-[50px] cursor-pointer text-center'>
-                                    <a href="#github" className=' text-gray-300 font-[500] text-[18px] dark:text-smallTextColorDark'>
+                                    <a  href="https://github.com/rezadd7" 
+                                        target='blank'
+                                        className=' text-gray-300 font-[500] text-[18px] dark:text-smallTextColorDark'>
                                         <i class="ri-github-line text-white"></i>
                                     </a>
                                 </span>
                                 <span className=' w-[35] h-[35] bg-[#2b2d33] p-1 rounded-[50px] cursor-pointer text-center'>
-                                    <a href="#linkdin" className=' text-gray-300 font-[500] text-[18px] dark:text-smallTextColorDark'>
+                                    <a  href="https://www.linkedin.com/in/reza-dehghan-18a238201" 
+                                        target='blank'
+                                        className=' text-gray-300 font-[500] text-[18px] dark:text-smallTextColorDark'>
                                         <i class="ri-linkedin-box-fill text-white"></i>
                                     </a>
                                 </span>
                                 <span className=' w-[35] h-[35] bg-[#2b2d33] p-1 rounded-[50px] cursor-pointer text-center'>
-                                    <a href="#instagram" className=' text-gray-300 font-[500] text-[18px] dark:text-smallTextColorDark'>
+                                    <a  href="https://instagram.com/rezadd7?igshid=ZDc4ODBmNjlmNQ==" 
+                                        target='blank'
+                                        className=' text-gray-300 font-[500] text-[18px] dark:text-smallTextColorDark'>
                                         <i class="ri-instagram-line text-white"></i>
                                     </a>
                                 </span>

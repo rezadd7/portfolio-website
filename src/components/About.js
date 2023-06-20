@@ -55,13 +55,19 @@ const About = () => {
                                     Follow me :
                                 </span>
                                 <span>
-                                    <a href='#Linkdin' className='text-smallTextColor text-[18px] font-[600] dark:text-smallTextColorDark'><i class="ri-linkedin-box-fill"></i></a>
+                                    <a  href='https://www.linkedin.com/in/reza-dehghan-18a238201' 
+                                        target='blank'
+                                        className='text-smallTextColor text-[18px] font-[600] dark:text-smallTextColorDark'><i class="ri-linkedin-box-fill"></i></a>
                                 </span>
                                 <span>
-                                    <a href='#github' className='text-smallTextColor text-[18px] font-[600] dark:text-smallTextColorDark'><i class="ri-github-fill"></i></a>
+                                    <a  href='https://github.com/rezadd7' 
+                                        target='blank'
+                                        className='text-smallTextColor text-[18px] font-[600] dark:text-smallTextColorDark'><i class="ri-github-fill"></i></a>
                                 </span>
                                 <span>
-                                    <a href='#instagram' className='text-smallTextColor text-[18px] font-[600] dark:text-smallTextColorDark'><i class="ri-instagram-fill"></i></a>
+                                    <a  href='https://instagram.com/rezadd7?igshid=ZDc4ODBmNjlmNQ==' 
+                                        target='blank'
+                                        className='text-smallTextColor text-[18px] font-[600] dark:text-smallTextColorDark'><i class="ri-instagram-fill"></i></a>
                                 </span>
                             </div>
 

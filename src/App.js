@@ -1,7 +1,9 @@
 
 import { useEffect, useState } from 'react';
-import Aos from 'aos';
+import { Route,Routes, Navigate } from 'react-router-dom';
 
+//CSS
+import Aos from 'aos';
 import './App.css';
 
 
@@ -24,11 +26,13 @@ function App() {
   return (
     <div className={darkMode ? "dark" : ""}>
         <Header darkMode={darkMode} setDarkMode={setDarkMode}/>
-          <main className=' bg-white dark:bg-[#1c2833]'>
-            <Home />
-          </main>
-        <Footer />
-  
+            <main className=' bg-white dark:bg-[#1c2833]'>
+              <Routes>
+                  <Route path='/' element={<Home />}/>
+                  <Route path='/*' element={<Navigate to="/"/>}/>
+              </Routes>  
+            </main>
+        <Footer /> 
     </div>
 
   );
