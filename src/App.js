@@ -1,5 +1,5 @@
 
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import Aos from 'aos';
 
 import './App.css';
@@ -8,10 +8,7 @@ import './App.css';
 //Components
 import Header from './components/Header';
 import Footer from './components/Footer';
-import About from './components/About';
-import Services from './components/Services';
-import Portfolio from './components/Portfolio';
-import Contact from './components/Contact';
+import Home from './components/Home';
 
 
 
@@ -21,17 +18,19 @@ function App() {
     Aos.init();
   }, [])
 
+
+  const [darkMode, setDarkMode] = useState(false)
+
   return (
-    <>
-      <Header />
-        <main>
-          <About />
-          <Services />
-          <Portfolio />
-          <Contact />
-        </main>
-      <Footer />
-    </>
+    <div className={darkMode ? "dark" : ""}>
+        <Header darkMode={darkMode} setDarkMode={setDarkMode}/>
+          <main className=' bg-white dark:bg-[#1c2833]'>
+            <Home />
+          </main>
+        <Footer />
+  
+    </div>
+
   );
 }
 

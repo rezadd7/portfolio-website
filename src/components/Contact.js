@@ -4,7 +4,7 @@ const Contact = () => {
     return (
         <section id='contact' className='pb-16'>
             <div className="container">
-                <h2 className=' text-headingColor font-[700] text-[2.5rem] mb-8'>Get In Touch</h2>
+                <h2 className=' text-headingColor font-[700] text-[2.5rem] mb-8 dark:text-headingColorDark'>Get In Touch</h2>
                 <div className=" md:flex justify-between items-center">
                     <div className=" w-full md:w-1/2 h-[450px] sm:h-[450]">
                     <iframe title='google-maps' 
@@ -15,7 +15,7 @@ const Contact = () => {
                             referrerPolicy="no-referrer-when-downgrade">
                     </iframe>
                     </div>
-                    <div className=" w-full mt-8 md:mt-0 md:w-1/2 sm:h-[450px] lg:flex items-center bg-indigo-100 lg:px-8 py-8">
+                    <div className=" w-full mt-8 md:mt-0 md:w-1/2 sm:h-[450px] lg:flex items-center bg-indigo-100 lg:px-8 py-8 dark:bg-[#1c2833]">
                         <form className=' w-full'>
                             <div className=" mb-5">
                                 <input  type="text" 
@@ -27,7 +27,7 @@ const Contact = () => {
                                         placeholder='Enter Your Email' 
                                         className=' w-full p-3 focus:outline-none rounded-lg'/>
                             </div>
-                            <div className=" mb-5" >
+                            <div className=" mb-5">
                                 <textarea   type="text" 
                                             rows={3}
                                             placeholder='Subject' 

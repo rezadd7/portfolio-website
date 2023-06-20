@@ -12,10 +12,10 @@ const Services = () => {
             <section id='services'>
                 <div className="container lg:pt-5">
                     <div className=" text-center">
-                        <h2 className="text-headingColor font-[800] text-[2.4rem] mb-5"> 
+                        <h2 className="text-headingColor font-[800] text-[2.4rem] mb-5 dark:text-headingColorDark"> 
                             What do yo want
                         </h2>
-                        <p className=' lg:max-[600px] lg:mx-auto text-headingColor font-[500] text-[16px] leading-7'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi perferendis fuga dolorum laborum eligendi libero sint temporibus, 
+                        <p className=' lg:max-[600px] lg:mx-auto text-headingColor font-[500] text-[16px] leading-7 dark:text-headingColorDark'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi perferendis fuga dolorum laborum eligendi libero sint temporibus, 
                             odio ea quae quo ab, cupiditate dolor saepe, exercitationem sed molestiae. Porro laboriosam
                              itaque dignissimos commodi cumque sapiente nisi velit, beatae recusandae reiciendis!
                             
@@ -38,12 +38,12 @@ const Services = () => {
                                                 data-aos="fade-right"
                                                 data-aos-delay="50"
                                                 data-aos-duration="1200"
-                                                className=" bg-white p-4 rounded shadow group hover:bg-primaryColor cursor-pointer">
+                                                className=" bg-white p-4 rounded shadow group hover:bg-primaryColor cursor-pointer dark:bg-slate-600 dark:hover:bg-slate-400">
                                                     <h3 className=' text-primaryColor font-[700] mb-3 group-hover:text-white
-                                                        group-hover:font-[600] text-xl'>
+                                                        group-hover:font-[600] text-xl '>
                                                         Frontend Developer
                                                     </h3>
-                                                    <p className=' text-[15px] text-smallTextColor group-hover:text-white group-hover:font-[500] leading-7'>
+                                                    <p className=' text-[15px] text-smallTextColor group-hover:text-white group-hover:font-[500] leading-7 dark:text-smallTextColorDark'>
                                                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                                         Vel, perferendis repudiandae! Sint totam obcaecati .
                                                     </p>
@@ -72,12 +72,12 @@ const Services = () => {
                                                 data-aos="fade-left"
                                                 data-aos-delay="50"
                                                 data-aos-duration="1300"
-                                                className=" bg-white p-4 rounded shadow group hover:bg-primaryColor cursor-pointer">
+                                                className=" bg-white p-4 rounded shadow group hover:bg-primaryColor cursor-pointer dark:bg-slate-600 dark:hover:bg-slate-400">
                                                     <h3 className=' text-primaryColor font-[700] mb-3 group-hover:text-white
                                                         group-hover:font-[600] text-xl'>
                                                         Backend Developer
                                                     </h3>
-                                                    <p className=' text-[15px] text-smallTextColor group-hover:text-white group-hover:font-[500] leading-7'>
+                                                    <p className=' text-[15px] text-smallTextColor group-hover:text-white group-hover:font-[500] leading-7 dark:text-smallTextColorDark'>
                                                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                                         Vel, perferendis repudiandae! Sint totam obcaecati .
                                                     </p>
@@ -106,12 +106,12 @@ const Services = () => {
                                                 data-aos="fade-right"
                                                 data-aos-delay="50"
                                                 data-aos-duration="1400"
-                                                className=" bg-white p-4 rounded shadow group hover:bg-primaryColor cursor-pointer">
+                                                className=" bg-white p-4 rounded shadow group hover:bg-primaryColor cursor-pointer dark:bg-slate-600 dark:hover:bg-slate-400">
                                                     <h3 className=' text-primaryColor font-[700] mb-3 group-hover:text-white
                                                         group-hover:font-[600] text-xl'>
                                                         UI/UX Designer
                                                     </h3>
-                                                    <p className=' text-[15px] text-smallTextColor group-hover:text-white group-hover:font-[500] leading-7'>
+                                                    <p className=' text-[15px] text-smallTextColor group-hover:text-white group-hover:font-[500] leading-7 dark:text-smallTextColorDark'>
                                                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                                         Vel, perferendis repudiandae! Sint totam obcaecati .
                                                     </p>
@@ -140,12 +140,12 @@ const Services = () => {
                                                 data-aos="fade-left"
                                                 data-aos-delay="50"
                                                 data-aos-duration="1500"
-                                                className=" bg-white p-4 rounded shadow group hover:bg-primaryColor cursor-pointer">
+                                                className=" bg-white p-4 rounded shadow group hover:bg-primaryColor cursor-pointer dark:bg-slate-600 dark:hover:bg-slate-400">
                                                     <h3 className=' text-primaryColor font-[700] mb-3 group-hover:text-white
                                                         group-hover:font-[600] text-xl'>
                                                         APP
                                                     </h3>
-                                                    <p className=' text-[15px] text-smallTextColor group-hover:text-white group-hover:font-[500] leading-7'>
+                                                    <p className=' text-[15px] text-smallTextColor group-hover:text-white group-hover:font-[500] leading-7 dark:text-smallTextColorDark'>
                                                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                                         Vel, perferendis repudiandae! Sint totam obcaecati .
                                                     </p>

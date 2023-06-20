@@ -1,16 +1,20 @@
 import React, {useRef, useEffect} from 'react';
 
-const Header = () => {
 
-  const headeRef = useRef(null);
+
+
+const Header = ({darkMode, setDarkMode}) => {
+
+  const headerRef = useRef(null);
   const menuRef = useRef(null);
+ 
 
   const stickyHeaderFunc = ()=> {
     window.addEventListener('scroll', ()=>{
         if(document.body.scrollTop >  80 || document.documentElement.scrollTop > 80){
-            headeRef.current.classList.add('sticky__header')
+            headerRef.current.classList.add('sticky__header')
         } else {
-            headeRef.current.classList.remove('sticky__header')
+            headerRef.current.classList.remove('sticky__header')
         }
     })
   }
@@ -34,25 +38,28 @@ const Header = () => {
     });
   }
 
-  const toggleMenu = ()=> menuRef.current.classList.toggle('show__menu')
+  const toggleMenu = ()=> menuRef.current.classList.toggle('show__menu');
+
+
 
     return (
         <header 
-            ref={headeRef}
-            className='w-full h-[80px] leading-[80px]  flex items-center'
+            ref={headerRef}
+            className='w-full h-[80px] leading-[80px]  flex items-center bg-white dark:bg-[#1c2833] '
         >
             <div className='container'>
                 <div className='flex items-center justify-between'>
                     {/* logo */}
                     <div className='flex items-center gap-[10px]'>
                         <span className='w-[35px] h-[35px] bg-primaryColor text-white text-[18px] font-[500]
-                        rounded-full flex items-center justify-center'>
+                        rounded-full flex items-center justify-center dark:text-white'>
                             R
                         </span>
                         <div className='leading-[20px]'>
-                            <h2 className='text-xl text-smallTextColor font-[700]'>Reza</h2>
-                            <p className='text-smallTextColor text-[14px] font-[500]'>dehghan</p>
+                            <h2 className='text-xl text-smallTextColor font-[700] dark:text-smallTextColorDark'>Reza</h2>
+                            <p className='text-smallTextColor text-[14px] font-[500] dark:text-smallTextColorDark'>dehghan</p>
                         </div>
+                       
                     </div>
                     {/* logo end */}
                     {/* Menu start */}
@@ -61,15 +68,15 @@ const Header = () => {
                             <li>
                                 <a 
                                     onClick={clickHandler}
-                                    className='text-smallTextColor font-[600]' 
+                                    className='text-smallTextColor font-[600] dark:text-smallTextColorDark' 
                                     href='#about'>
                                     About
                                 </a>
                             </li>
                             <li>
                                 <a 
-                                     onClick={clickHandler}
-                                    className='text-smallTextColor font-[600]' 
+                                    onClick={clickHandler}
+                                    className='text-smallTextColor font-[600] dark:text-smallTextColorDark' 
                                     href='#services'>
                                     Services
                                 </a>
@@ -77,7 +84,7 @@ const Header = () => {
                             <li>
                                 <a 
                                     onClick={clickHandler} 
-                                    className='text-smallTextColor font-[600]' 
+                                    className='text-smallTextColor font-[600] dark:text-smallTextColorDark' 
                                     href='#portfolio'>
                                     Portfolio
                                 </a>
@@ -85,7 +92,7 @@ const Header = () => {
                             <li>
                                 <a
                                     onClick={clickHandler}
-                                    className='text-smallTextColor font-[600]' 
+                                    className='text-smallTextColor font-[600] dark:text-smallTextColorDark' 
                                     href='#contact'>
                                     Contact
                                     
@@ -98,14 +105,20 @@ const Header = () => {
                     <div className='flex items-center gap-4'>
                         <button className='flex items-center gap-2 text-smallTextColor font-[600] border border-smallTextColor
                             py-2 px-4 rounded-[8px] max-h-[40px] hover:bg-smallTextColor hover:text-white hover:font-[500] ease-in
-                            duration-300                       
+                            duration-300 dark:text-smallTextColorDark dark:border-smallTextColorDark                      
                         '>
                             <i class="ri-send-plane-line"></i> Let's Talk
                         </button>
 
                         <span 
+                               onClick={() => setDarkMode(!darkMode)}
+                                className=' text-[22px] cursor-pointer'>
+                                        <i class="ri-moon-clear-fill dark:text-white"></i>        
+                                </span>
+
+                        <span 
                             onClick={toggleMenu}
-                            className='text-2xl text-smallTextColor md:hidden cursor-pointer'>
+                            className='text-2xl text-smallTextColor md:hidden cursor-pointer dark:text-smallTextColorDark'>
                             <i class="ri-menu-line"></i>
                         </span>
                     </div>

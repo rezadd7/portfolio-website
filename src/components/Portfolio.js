@@ -48,19 +48,19 @@ const Portfolio = () => {
 
                 <div className=" flex items-center justify-between flex-wrap ">
                     <div className=" mb-7 sm:mb-0">
-                        <h3 className=' text-headingColor text-[2rem] font-bold'>My Recent Project</h3>
+                        <h3 className=' text-headingColor text-[2rem] font-bold dark:text-headingColorDark'>My Recent Project</h3>
                     </div>
 
                     <div className="flex gap-3">
                         <button 
                         onClick={() => setSelectTab('all')}
-                        className=' text-smallTextColor border border-smallTextColor py-2 px-4 rounded-[8px]'>All</button>
+                        className=' text-smallTextColor border border-smallTextColor py-2 px-4 rounded-[8px] dark:text-smallTextColorDark dark:border-smallTextColorDark hover:bg-primaryColor hover:border-primaryColor dark:hover:border-primaryColor'>All</button>
                         <button 
                         onClick={() => setSelectTab('web-disgn')}
-                        className=' text-smallTextColor border border-smallTextColor py-2 px-4 rounded-[8px]'>Web Design</button>
+                        className=' text-smallTextColor border border-smallTextColor py-2 px-4 rounded-[8px] dark:text-smallTextColorDark dark:border-smallTextColorDark hover:bg-primaryColor hover:border-primaryColor dark:hover:border-primaryColor'>Web Design</button>
                         <button 
                         onClick={() => setSelectTab('ux-design')}
-                        className=' text-smallTextColor border border-smallTextColor py-2 px-4 rounded-[8px]'>UI/UX Design</button>
+                        className=' text-smallTextColor border border-smallTextColor py-2 px-4 rounded-[8px] dark:text-smallTextColorDark dark:border-smallTextColorDark hover:bg-primaryColor hover:border-primaryColor dark:hover:border-primaryColor'>UI/UX Design</button>
                     </div>
 
                 </div>
