@@ -45,7 +45,7 @@ section{
     position: fixed;
     top: 0;
     left: 0;
-    background: #01010184;
+    background: #2c2c2c84;
     z-index: 100;
     display: none;
   }
@@ -56,7 +56,8 @@ section{
     position: fixed;
     top: 0;
     left: 0;
-    background: #01010184;
+    background: #28282884;
+    color: #fff;
     z-index: 100;
     display: none;
   }
@@ -68,7 +69,8 @@ section{
     top: 0;
     right: 0;
     z-index: 200;
-    background: #e1e1e1;
+    background: #656565;
+    color: #fff;
     flex-direction: column;
     line-height: 30px;
     justify-content: center;
@@ -81,7 +83,7 @@ section{
     top: 0;
     right: 0;
     z-index: 200;
-    background: #0c0c0c;
+    background: #1a1a1a;
     flex-direction: column;
     line-height: 30px;
     justify-content: center;

@@ -1,9 +1,7 @@
 import React from 'react';
 
 //Image
-import frontendImg from '../assets/images/front-end.png'
-import backendImg from '../assets/images/backend.png'
-import designImg from '../assets/images/design.png'
+
 import apssImg from '../assets/images/apps.png'
 
 //SVG
@@ -18,7 +16,7 @@ import tailwindcss from '../assets/svg/tailwindcss.svg'
 
 const Experiance = () => {
     return (
-            <section id='experiance'>
+            <section id='experiance' className=' bg-slate-300 dark:bg-[#1c2833]'>
                 <div className="container lg:pt-5">
                     <div className=" text-center">
                         <h2 className="text-headingColor font-[800] text-[2.4rem] mb-5 dark:text-headingColorDark"> 

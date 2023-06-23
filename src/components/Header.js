@@ -70,7 +70,7 @@ const Header = ({darkMode, setDarkMode}) => {
                             <li>
                                 <a 
                                     onClick={clickHandler}
-                                    className='text-smallTextColor font-[600] dark:text-smallTextColorDark' 
+                                    className='text-smallTextColor sm:text-white font-[600] dark:text-smallTextColorDark' 
                                     href='#about'>
                                     About
                                 </a>
@@ -78,7 +78,7 @@ const Header = ({darkMode, setDarkMode}) => {
                             <li>
                                 <a 
                                     onClick={clickHandler}
-                                    className='text-smallTextColor font-[600] dark:text-smallTextColorDark' 
+                                    className='text-smallTextColor font-[600] sm:text-white dark:text-smallTextColorDark' 
                                     href='#experiance'>
                                     Experiance
                                 </a>
@@ -86,7 +86,7 @@ const Header = ({darkMode, setDarkMode}) => {
                             <li>
                                 <a 
                                     onClick={clickHandler} 
-                                    className='text-smallTextColor font-[600] dark:text-smallTextColorDark' 
+                                    className='text-smallTextColor font-[600] sm:text-white dark:text-smallTextColorDark' 
                                     href='#portfolio'>
                                     Portfolio
                                 </a>
@@ -94,7 +94,7 @@ const Header = ({darkMode, setDarkMode}) => {
                             <li>
                                 <a
                                     onClick={clickHandler}
-                                    className='text-smallTextColor font-[600] dark:text-smallTextColorDark' 
+                                    className='text-smallTextColor font-[600] sm:text-white dark:text-smallTextColorDark' 
                                     href='#contact'>
                                     Contact                                    
                                 </a>
@@ -108,7 +108,7 @@ const Header = ({darkMode, setDarkMode}) => {
                             py-2 px-4 rounded-[8px] max-h-[40px] hover:bg-smallTextColor hover:text-white hover:font-[500] ease-in
                             duration-300 dark:text-smallTextColorDark dark:border-smallTextColorDark                      
                         '>
-                            <i className="ri-send-plane-line"></i> Let's Talk
+                            <i className="ri-send-plane-line"></i><a href='mailto:rezadd7@gmail.com'> Let's Talk</a>
                         </button>
 
                         <span 
@@ -119,8 +119,8 @@ const Header = ({darkMode, setDarkMode}) => {
 
                         <span 
                             onClick={toggleMenu}
-                            className='text-2xl text-smallTextColor md:hidden cursor-pointer dark:text-smallTextColorDark dark:bg-[#1c2833]'>
-                            <i className="ri-menu-line"></i>
+                            className='text-2xl md:hidden cursor-pointer'>
+                            <i className="ri-menu-line dark:text-white"></i>
                         </span>
                     </div>
                     {/* Menu-right */}

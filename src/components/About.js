@@ -36,7 +36,15 @@ const About = () => {
                                 <a href='#contact'>
                                     <button className='bg-primaryColor text-white font-[500] flex items-center gap-2
                                         hover:bg-smallTextColor ease-in duration-300 py-2 px-4 rounded-[8px] dark:text-white
-                                    '><i className="ri-folder-download-line"><span className='ml-2'>Download CV</span></i></button>
+                                    '>
+                                        <i className="ri-folder-download-line">
+                                            <span className='ml-2'>
+                                                <a href='https://drive.google.com/file/d/1FutKO8yJ6-ejFcW_M9gI8XlaewNPuTuf/view?usp=drive_link'>
+                                                    Download CV
+                                                </a>
+                                            </span>
+                                        </i>
+                                    </button>
                                 </a>
                                 <a href='#portfolio' className='text-smallTextColor  font-[600] text-[16px]
                                     border-b border-solid border-smallTextColor dark:dark:text-smallTextColorDark dark:border-smallTextColorDark
