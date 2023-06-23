@@ -48,9 +48,9 @@ const About = () => {
                                    className='flex gap-2 text-headingColor mt-12 font-[500] text-[15px] leading-7 sm:pl-14 sm:pr-15 dark:text-white' 
                                 >
                                 <span><i className="ri-apps-2-line"></i></span>
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard 
-                                dummy text ever since the 1500s, when an unknown printer took a galley of type and 
-                                scrambled it to make a type specimen book.
+                                My name is Reza, I have a bachelor's degree in IT from Payam Noor University.
+                                 It has been a while since I started programming and acquired skills in the field of frontend developer
+                                  and implemented them in the form of this project.
                             </p>
 
                             <div className='flex items-center gap-9 mt-14'>

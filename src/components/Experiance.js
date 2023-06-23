@@ -13,6 +13,7 @@ import css3 from '../assets/svg/css3.svg'
 import github from '../assets/svg/github.svg'
 import html5 from '../assets/svg/html5.svg'
 import js from '../assets/svg/js.svg'
+import tailwindcss from '../assets/svg/tailwindcss.svg'
 
 
 const Experiance = () => {
@@ -58,7 +59,7 @@ const Experiance = () => {
                                                         -translate-x-1/2 -translate-y-4 sm:translate-y-0 flex items-center justify-center 
                                             ">
                                             <figure>
-                                                <img src={frontendImg} alt="frontendImg"/>
+                                                <img src={apssImg} alt="apssImg"/>
                                             </figure>
                                         </div>
 
@@ -88,7 +89,7 @@ const Experiance = () => {
                                                         -translate-x-1/2 -translate-y-4 sm:translate-y-0 flex items-center justify-center 
                                             ">
                                             <figure>
-                                                <img src={backendImg} alt="backendImg"/>
+                                                <img src={apssImg} alt="apssImg"/>
                                             </figure>
                                         </div>
 
@@ -118,7 +119,7 @@ const Experiance = () => {
                                                         -translate-x-1/2 -translate-y-4 sm:translate-y-0 flex items-center justify-center 
                                             ">
                                             <figure>
-                                                <img src={designImg} alt="designImg"/>
+                                                <img src={apssImg} alt="apssImg"/>
                                             </figure>
                                         </div>
 
@@ -178,7 +179,7 @@ const Experiance = () => {
                                                         -translate-x-1/2 -translate-y-4 sm:translate-y-0 flex items-center justify-center 
                                             ">
                                             <figure>
-                                                <img src={designImg} alt="designImg"/>
+                                                <img src={apssImg} alt="apssImg"/>
                                             </figure>
                                         </div>
 
@@ -196,9 +197,39 @@ const Experiance = () => {
                                                 data-aos-delay="50"
                                                 data-aos-duration="1500"
                                                 className=" bg-white p-4 rounded shadow group flex hover:bg-primaryColor cursor-pointer dark:bg-slate-600 dark:hover:bg-slate-400">
+                                                    <img src={tailwindcss} className=' text-[32px] ml-3' alt='tailwindcss'/>
+                                                    <h3 className='  text-primaryColor pt-6 font-[700] mb-3 group-hover:text-white group-hover:font-[600] text-[25px] pl-2'>
+                                                        Tailwindcss
+                                                    </h3> 
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div className=" rounded-full bg-primaryColor border-white border-4 dark:border-[#1c2833] w-10 h-10 absolute left-1/2 transform
+                                                        -translate-x-1/2 -translate-y-4 sm:translate-y-0 flex items-center justify-center 
+                                            ">
+                                            <figure>
+                                                <img src={apssImg} alt="apssImg"/>
+                                            </figure>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                {/* left card */}
+                                <div className="mt-6 sm:mt-0 sm:mb-12">
+                                    <div className=" flex items-center flex-col sm:flex-row">
+
+                                        <div className="flex justify-start w-full max-auto items-center">
+                                            <div className="w-full sm:w-1/2 sm:pr-8">
+                                                <div 
+                                                data-aos="fade-right"
+                                                data-aos-delay="50"
+                                                data-aos-duration="1400"
+                                                className=" bg-white p-4 rounded shadow group flex hover:bg-primaryColor cursor-pointer dark:bg-slate-600 dark:hover:bg-slate-400">
                                                     <img src={github} className=' text-[32px] ml-3' alt='github'/>
                                                     <h3 className='  text-primaryColor pt-4 font-[700] mb-3 group-hover:text-white group-hover:font-[600] text-[30px] pl-2'>
-                                                        Github
+                                                    Github
                                                     </h3> 
                                                 </div>
                                             </div>
