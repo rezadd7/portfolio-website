@@ -63,7 +63,9 @@ const Header = ({darkMode, setDarkMode}) => {
                     </Link>
                     {/* logo end */}
                     {/* Menu start */}
-                    <div className='menu' onClick={toggleMenu} ref={menuRef}> 
+                    <div className={
+                            setDarkMode(darkMode) ? "menu" : "menuDark"
+                    } onClick={toggleMenu} ref={menuRef}> 
                         <ul className='flex items-center gap-10'>
                             <li>
                                 <a 
@@ -117,7 +119,7 @@ const Header = ({darkMode, setDarkMode}) => {
 
                         <span 
                             onClick={toggleMenu}
-                            className='text-2xl text-smallTextColor md:hidden cursor-pointer dark:text-smallTextColorDark md:dark:bg-[#1c2833]'>
+                            className='text-2xl text-smallTextColor md:hidden cursor-pointer dark:text-smallTextColorDark dark:bg-[#1c2833]'>
                             <i className="ri-menu-line"></i>
                         </span>
                     </div>
