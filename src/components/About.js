@@ -1,6 +1,9 @@
 import React from 'react';
+
+
+//Icon
 import heroIcon from '../assets/images/hero.svg';
-import CountUp from 'react-countup';
+
 
 
 const About = () => {
@@ -33,7 +36,7 @@ const About = () => {
                                 <a href='#contact'>
                                     <button className='bg-primaryColor text-white font-[500] flex items-center gap-2
                                         hover:bg-smallTextColor ease-in duration-300 py-2 px-4 rounded-[8px] dark:text-white
-                                    '><i class="ri-mail-line" ><span className='ml-2'>Here Me</span></i></button>
+                                    '><i className="ri-folder-download-line"><span className='ml-2'>Download CV</span></i></button>
                                 </a>
                                 <a href='#portfolio' className='text-smallTextColor  font-[600] text-[16px]
                                     border-b border-solid border-smallTextColor dark:dark:text-smallTextColorDark dark:border-smallTextColorDark
@@ -44,7 +47,7 @@ const About = () => {
                                    data-aos-duration="1500"
                                    className='flex gap-2 text-headingColor mt-12 font-[500] text-[15px] leading-7 sm:pl-14 sm:pr-15 dark:text-white' 
                                 >
-                                <span><i class="ri-apps-2-line"></i></span>
+                                <span><i className="ri-apps-2-line"></i></span>
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard 
                                 dummy text ever since the 1500s, when an unknown printer took a galley of type and 
                                 scrambled it to make a type specimen book.
@@ -57,17 +60,17 @@ const About = () => {
                                 <span>
                                     <a  href='https://www.linkedin.com/in/reza-dehghan-18a238201' 
                                         target='blank'
-                                        className='text-smallTextColor text-[18px] font-[600] dark:text-smallTextColorDark'><i class="ri-linkedin-box-fill"></i></a>
+                                        className='text-smallTextColor text-[18px] font-[600] dark:text-smallTextColorDark'><i className="ri-linkedin-box-fill"></i></a>
                                 </span>
                                 <span>
                                     <a  href='https://github.com/rezadd7' 
                                         target='blank'
-                                        className='text-smallTextColor text-[18px] font-[600] dark:text-smallTextColorDark'><i class="ri-github-fill"></i></a>
+                                        className='text-smallTextColor text-[18px] font-[600] dark:text-smallTextColorDark'><i className="ri-github-fill"></i></a>
                                 </span>
                                 <span>
                                     <a  href='https://instagram.com/rezadd7?igshid=ZDc4ODBmNjlmNQ==' 
                                         target='blank'
-                                        className='text-smallTextColor text-[18px] font-[600] dark:text-smallTextColorDark'><i class="ri-instagram-fill"></i></a>
+                                        className='text-smallTextColor text-[18px] font-[600] dark:text-smallTextColorDark'><i className="ri-instagram-fill"></i></a>
                                 </span>
                             </div>
 
@@ -81,39 +84,7 @@ const About = () => {
                         </figure>
                     </div>
                     {/* Main image end */}
-
-
-                    {/* Main Count */}
-                    <div className='md:basis-1/5 flex justify-between text-center mt-10 flex-wrap gap-3 
-                        md:mt-0 md:flex-col md:justify-end md:text-end'
-                        >
-                        <div className='mb-10'>
-                            <h2 className='text-smallTextColor font-[700] text-[32px] dark:text-smallTextColorDark'>
-                                <CountUp start={0} end={6} duration={2} suffix='+'/>
-                            </h2>
-                            <h4 className='text-smallTextColor font-[600] text-[18px] dark:text-smallTextColorDark'>Years of experience</h4>
-                        </div>
-                        <div className='mb-10'>
-                            <h2 className='text-smallTextColor font-[700] text-[32px] dark:text-smallTextColorDark'>
-                                <CountUp start={0} end={100} duration={5} suffix='%'/>
-                            </h2>
-                            <h4 className='text-smallTextColor font-[600] text-[18px] dark:text-smallTextColorDark'>Success Rate</h4>
-                        </div>
-                        <div className='mb-10'>
-                            <h2 className='text-smallTextColor font-[700] text-[32px] dark:text-smallTextColorDark'>
-                                <CountUp start={0} end={149} duration={5} suffix='+'/>
-                            </h2>
-                            <h4 className='text-smallTextColor font-[600] text-[18px] dark:text-smallTextColorDark'>Happy Client</h4>
-                        </div>
-                        <div className='mb-10'>
-                            <h2 className='text-smallTextColor font-[700] text-[32px] dark:text-smallTextColorDark'>
-                                <CountUp start={0} end={60} duration={5} suffix='+'/>
-                            </h2>
-                            <h4 className='text-smallTextColor font-[600] text-[18px] dark:text-smallTextColorDark'>Project Complete</h4>
-                        </div>
-                    </div>
-                    {/* Main Count end */}
-                    
+      
                 </div>
             </div>
 

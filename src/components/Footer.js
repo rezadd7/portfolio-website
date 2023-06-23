@@ -17,7 +17,7 @@ const Footer = () => {
                             <a href='#contact'>
                                     <button className='bg-primaryColor text-white font-[500] flex items-center gap-2
                                         hover:bg-smallTextColor ease-in duration-300 py-2 px-4 rounded-[8px] 
-                                    '><i class="ri-mail-line" ><span className='ml-2'>Here Me</span></i></button>
+                                    '><i className="ri-mail-line" ><span className='ml-2'>Here Me</span></i></button>
                             </a>
                         </div>
 
@@ -35,21 +35,21 @@ const Footer = () => {
                                     <a  href="https://github.com/rezadd7" 
                                         target='blank'
                                         className=' text-gray-300 font-[500] text-[18px] dark:text-smallTextColorDark'>
-                                        <i class="ri-github-line text-white"></i>
+                                        <i className="ri-github-line text-white"></i>
                                     </a>
                                 </span>
                                 <span className=' w-[35] h-[35] bg-[#2b2d33] p-1 rounded-[50px] cursor-pointer text-center'>
                                     <a  href="https://www.linkedin.com/in/reza-dehghan-18a238201" 
                                         target='blank'
                                         className=' text-gray-300 font-[500] text-[18px] dark:text-smallTextColorDark'>
-                                        <i class="ri-linkedin-box-fill text-white"></i>
+                                        <i className="ri-linkedin-box-fill text-white"></i>
                                     </a>
                                 </span>
                                 <span className=' w-[35] h-[35] bg-[#2b2d33] p-1 rounded-[50px] cursor-pointer text-center'>
                                     <a  href="https://instagram.com/rezadd7?igshid=ZDc4ODBmNjlmNQ==" 
                                         target='blank'
                                         className=' text-gray-300 font-[500] text-[18px] dark:text-smallTextColorDark'>
-                                        <i class="ri-instagram-line text-white"></i>
+                                        <i className="ri-instagram-line text-white"></i>
                                     </a>
                                 </span>
                             </div>

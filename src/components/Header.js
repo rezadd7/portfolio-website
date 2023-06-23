@@ -77,8 +77,8 @@ const Header = ({darkMode, setDarkMode}) => {
                                 <a 
                                     onClick={clickHandler}
                                     className='text-smallTextColor font-[600] dark:text-smallTextColorDark' 
-                                    href='#services'>
-                                    Services
+                                    href='#experiance'>
+                                    Experiance
                                 </a>
                             </li>
                             <li>
@@ -94,8 +94,7 @@ const Header = ({darkMode, setDarkMode}) => {
                                     onClick={clickHandler}
                                     className='text-smallTextColor font-[600] dark:text-smallTextColorDark' 
                                     href='#contact'>
-                                    Contact
-                                    
+                                    Contact                                    
                                 </a>
                             </li>
                         </ul>
@@ -107,19 +106,19 @@ const Header = ({darkMode, setDarkMode}) => {
                             py-2 px-4 rounded-[8px] max-h-[40px] hover:bg-smallTextColor hover:text-white hover:font-[500] ease-in
                             duration-300 dark:text-smallTextColorDark dark:border-smallTextColorDark                      
                         '>
-                            <i class="ri-send-plane-line"></i> Let's Talk
+                            <i className="ri-send-plane-line"></i> Let's Talk
                         </button>
 
                         <span 
                                onClick={() => setDarkMode(!darkMode)}
                                 className=' text-[22px] cursor-pointer'>
-                                        <i class="ri-moon-clear-fill dark:text-white"></i>        
+                                        <i className="ri-moon-clear-fill dark:text-white"></i>        
                                 </span>
 
                         <span 
                             onClick={toggleMenu}
-                            className='text-2xl text-smallTextColor md:hidden cursor-pointer dark:text-smallTextColorDark'>
-                            <i class="ri-menu-line"></i>
+                            className='text-2xl text-smallTextColor md:hidden cursor-pointer dark:text-smallTextColorDark md:dark:bg-[#1c2833]'>
+                            <i className="ri-menu-line"></i>
                         </span>
                     </div>
                     {/* Menu-right */}
