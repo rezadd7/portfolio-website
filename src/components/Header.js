@@ -70,7 +70,7 @@ const Header = ({darkMode, setDarkMode}) => {
                             <li>
                                 <a 
                                     onClick={clickHandler}
-                                    className='text-smallTextColor sm:text-white font-[600] dark:text-smallTextColorDark' 
+                                    className='text-smallTextColor  font-[600] dark:text-smallTextColorDark' 
                                     href='#about'>
                                     About
                                 </a>
@@ -78,7 +78,7 @@ const Header = ({darkMode, setDarkMode}) => {
                             <li>
                                 <a 
                                     onClick={clickHandler}
-                                    className='text-smallTextColor font-[600] sm:text-white dark:text-smallTextColorDark' 
+                                    className='text-smallTextColor font-[600]  dark:text-smallTextColorDark' 
                                     href='#experiance'>
                                     Experiance
                                 </a>
@@ -86,7 +86,7 @@ const Header = ({darkMode, setDarkMode}) => {
                             <li>
                                 <a 
                                     onClick={clickHandler} 
-                                    className='text-smallTextColor font-[600] sm:text-white dark:text-smallTextColorDark' 
+                                    className='text-smallTextColor font-[600] dark:text-smallTextColorDark' 
                                     href='#portfolio'>
                                     Portfolio
                                 </a>
@@ -94,7 +94,7 @@ const Header = ({darkMode, setDarkMode}) => {
                             <li>
                                 <a
                                     onClick={clickHandler}
-                                    className='text-smallTextColor font-[600] sm:text-white dark:text-smallTextColorDark' 
+                                    className='text-smallTextColor font-[600]  dark:text-smallTextColorDark' 
                                     href='#contact'>
                                     Contact                                    
                                 </a>
