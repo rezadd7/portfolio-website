@@ -27,7 +27,7 @@ const Modal = ({activeID, setShowModal}) => {
                     }
                 </div>
 
-                <a href={portfolio.siteUrl}>
+                <a href={portfolio.siteUrl}  target='blank'>
                     <button className=' bg-primaryColor py-1 text-white px-4 my-8 rounded-[8px]
                      font-[500] hover:bg-headingColor ease-in duration-300'>Live site</button>
                 </a>

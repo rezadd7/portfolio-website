@@ -68,17 +68,17 @@ const About = () => {
                                 <span>
                                     <a  href='https://www.linkedin.com/in/reza-dehghan-18a238201' 
                                         target='blank'
-                                        className='text-smallTextColor text-[18px] font-[600] dark:text-smallTextColorDark'><i className="ri-linkedin-box-fill"></i></a>
+                                        className='text-smallTextColor text-[18px] font-[600] dark:text-smallTextColorDark cursor-pointer hover:text-red-200 hover:transition dark:hover:text-red-200'><i className="ri-linkedin-box-fill"></i></a>
                                 </span>
                                 <span>
                                     <a  href='https://github.com/rezadd7' 
                                         target='blank'
-                                        className='text-smallTextColor text-[18px] font-[600] dark:text-smallTextColorDark'><i className="ri-github-fill"></i></a>
+                                        className='text-smallTextColor text-[18px] font-[600] dark:text-smallTextColorDark cursor-pointer hover:text-red-200 hover:transition dark:hover:text-red-200'><i className="ri-github-fill"></i></a>
                                 </span>
                                 <span>
                                     <a  href='https://instagram.com/rezadd7?igshid=ZDc4ODBmNjlmNQ==' 
                                         target='blank'
-                                        className='text-smallTextColor text-[18px] font-[600] dark:text-smallTextColorDark'><i className="ri-instagram-fill"></i></a>
+                                        className='text-smallTextColor text-[18px] font-[600] dark:text-smallTextColorDark cursor-pointer hover:text-red-200 hover:transition dark:hover:text-red-200'><i className="ri-instagram-fill"></i></a>
                                 </span>
                             </div>
 

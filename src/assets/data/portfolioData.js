@@ -1,5 +1,5 @@
 import portfolioImg01 from "../images/portfolio-01.jpg";
-import portfolioImg02 from "../images/portfolio-02.jpg";
+import crypto from "../images/crypto.png";
 import portfolioImg03 from "../images/portfolio-03.jpg";
 import portfolioImg04 from "../images/portfolio-04.jpg";
 import portfolioImg05 from "../images/portfolio-05.jpg";
@@ -29,13 +29,13 @@ const portfolios = [
   },
   {
     id: "03",
-    imgUrl: portfolioImg02,
-    category: "Ux",
-    title: "Multimedia Sharing Website",
+    imgUrl: crypto,
+    category: "ux",
+    title: "Display changes of digital currencies",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
-    siteUrl: "#",
+      "In this project, the image, name, 24-hour changes, percent of changes and the current price of currencies are displayed to the user using the api that we got from the coingecko site.",
+    technologies: ["React","Rest Api"],
+    siteUrl: "https://cryptoreza.netlify.app/",
   },
   {
     id: "04",
@@ -90,7 +90,7 @@ const portfolios = [
   },
   {
     id: "09",
-    imgUrl: portfolioImg02,
+    imgUrl:crypto,
     category: "Ux",
     title: "Video Conference Website",
     description:
