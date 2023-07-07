@@ -8,6 +8,7 @@ const Contact = () => {
                 <div className=" md:flex justify-center items-center">   
                     <div className=" w-full mt-8 md:mt-0 md:w-1/2 sm:h-[450px] lg:flex items-center bg-slate-200 dark:bg-slate-700 lg:px-8 py-8">
                         <form className=' w-full'>
+                          
                             <div className=' px-5 text-center'>
                                 <input  className=' w-10/12 p-2 rounded outline-none text-[15px] shadow-slate-200 placeholder:text-slate-400' 
                                         placeholder='Enter Your name'
@@ -23,7 +24,7 @@ const Contact = () => {
                             <div className=' px-5 text-center mt-5'>
                                 <textarea    className=' w-10/12 p-2 rounded outline-none text-[15px] shadow-slate-200 placeholder:text-slate-400'
                                              placeholder='Enter Your message'
-                                           
+                                            
                                              />
                             </div>
                             <div className=" px-5 text-center mt-5">

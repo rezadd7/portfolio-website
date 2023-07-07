@@ -39,7 +39,7 @@ const About = () => {
                                     '>
                                         <i className="ri-folder-download-line">
                                             <span className='ml-2'>
-                                                <a href='https://drive.google.com/file/d/1FutKO8yJ6-ejFcW_M9gI8XlaewNPuTuf/view?usp=drive_link'>
+                                                <a href='https://drive.google.com/file/d/1dUUKQG8KyoicQG_W1GPemPICYPbWlwuh/view?usp=sharing'>
                                                     Download CV
                                                 </a>
                                             </span>
