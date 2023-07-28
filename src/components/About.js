@@ -3,6 +3,7 @@ import React from 'react';
 
 //Icon
 import heroIcon from '../assets/images/hero.svg';
+import hero from '../assets/images/hero.jpg';
 
 
 
@@ -88,7 +89,7 @@ const About = () => {
                     {/* Main image */}
                     <div className='mt-10 basis-1/3 sm:mt-5'>
                         <figure className='flex items-center justify-center'>
-                            <img src={heroIcon} alt='Hero' />
+                            <img src={hero} alt='Hero' />
                         </figure>
                     </div>
                     {/* Main image end */}
