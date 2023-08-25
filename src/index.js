@@ -10,6 +10,7 @@ import "aos/dist/aos.css";
 import 'remixicon/fonts/remixicon.css';
 
 
+
 //Component
 import App from './App';
 
@@ -20,4 +21,5 @@ root.render(
     <App />
 </BrowserRouter>
 );
+
 
