@@ -40,7 +40,7 @@ const About = () => {
                                     '>
                                         <i className="ri-folder-download-line">
                                             <span className='ml-2'>
-                                                <a href='https://drive.google.com/file/d/1EKxRgF7VNEid1NqgnN98H10r4XCs5vd3/view?usp=drive_link'>
+                                                <a href='https://drive.google.com/file/d/1xSh-PcfFPTDeCRoWfwyHcNIs2Q7IthrW/view?usp=sharing'>
                                                     Download CV
                                                 </a>
                                             </span>
@@ -76,11 +76,11 @@ const About = () => {
                                         target='blank'
                                         className='text-smallTextColor text-[18px] font-[600] dark:text-smallTextColorDark cursor-pointer hover:text-red-200 hover:transition dark:hover:text-red-200'><i className="ri-github-fill"></i></a>
                                 </span>
-                                <span>
+                                {/* <span>
                                     <a  href='https://instagram.com/rezadd7?igshid=ZDc4ODBmNjlmNQ==' 
                                         target='blank'
                                         className='text-smallTextColor text-[18px] font-[600] dark:text-smallTextColorDark cursor-pointer hover:text-red-200 hover:transition dark:hover:text-red-200'><i className="ri-instagram-fill"></i></a>
-                                </span>
+                                </span> */}
                             </div>
 
                     </div>
