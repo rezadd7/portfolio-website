@@ -75,7 +75,7 @@ const Portfolio = () => {
                                 data-aos-duration="2000"
                                 className=" group max-w-full sm:w-[48.5%] md:w-[31.8%] lg:w-[32.2%] relative z-[1]">
                                 <figure>
-                                    <img className=' rounded-[8px]' src={portfolio.imgUrl} alt='portfolio img'/>
+                                    <img className=' rounded-[8px]' src={portfolio.imgUrl} alt='portfolio img' width="500px" height="500px"/>
                                 </figure>
 
                                 <div className="w-full h-full bg-primaryColor bg-opacity-40 absolute top-0 left-0 z-[5]

@@ -1,7 +1,8 @@
 import shopping from "../images/shopping.png";
 import crypto from "../images/crypto.png";
+import rezmah from "../images/rezmah.png"
 import portfolioImg03 from "../images/portfolio-03.jpg";
-import portfolioImg04 from "../images/portfolio-04.jpg";
+
 import portfolioImg05 from "../images/portfolio-05.jpg";
 import portfolioImg06 from "../images/portfolio-06.jpg";
 import portfolioImg07 from "../images/portfolio-07.jpg";
@@ -19,13 +20,13 @@ const portfolios = [
   },
   {
     id: "02",
-    imgUrl: portfolioImg04,
-    category: "Ux",
-    title: "Video Conference Website",
+    imgUrl: rezmah,
+    category: "Web Design",
+    title: "Rezmah blog",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
-    siteUrl: "#",
+      "In this project, CMS, graphql is used for backend, and react and materialui are used for UI design.",
+    technologies: ["React", "MaterialUI", "Graphql"],
+    siteUrl: "https://rezmahblog.netlify.app/",
   },
   {
     id: "03",
@@ -110,7 +111,7 @@ const portfolios = [
   },
   {
     id: "11",
-    imgUrl: portfolioImg04,
+    imgUrl: portfolioImg03,
     category: "Web Design",
     title: "Landing Page",
     description:
