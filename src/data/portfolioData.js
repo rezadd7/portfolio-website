@@ -36,7 +36,7 @@ const portfolios = [
     description:
       "In this project, the image, name, 24-hour changes, percent of changes and the current price of currencies are displayed to the user using the api that we got from the coingecko site.",
     technologies: ["React","Rest Api"],
-    siteUrl: "https://cryptoreza.netlify.app/",
+    siteUrl: "https://cryptordd.netlify.app/",
   },
   {
     id: "04",
