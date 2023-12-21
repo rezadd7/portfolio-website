@@ -29,7 +29,7 @@ const Footer = () => {
                                     </a>
                                 </span>
                                 <span className=' w-[35] h-[35] bg-[#2b2d33] p-1 rounded-[50px] cursor-pointer text-center'>
-                                    <a  href="https://instagram.com/rezadd7?igshid=ZDc4ODBmNjlmNQ==" 
+                                    <a  href="#" 
                                         target='blank'
                                         className=' text-gray-300 font-[500] text-[18px] dark:text-smallTextColorDark'>
                                         <i className="ri-instagram-line text-white"></i>
